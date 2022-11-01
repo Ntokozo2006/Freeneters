@@ -1,0 +1,93 @@
+.intro{
+    text-align: center;
+    background-color: rgb(11, 133, 173);
+    color: white;
+    margin-top: 1px;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.Http_custom_image{
+    width: 40%;
+    margin-top: 50px;
+}
+
+table{
+    background-color: black;
+    vertical-align: top;
+    margin-top: 50px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr{
+    background-color: white;
+}
+
+.Http_custom{
+    text-align: center;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: padding-right 0.3s, padding-left 0.3s, background-color 0.3s, color 0.3s, opacity 0.3s;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+button:hover{
+    padding-left: 100px;
+    padding-right: 100px;
+
+    
+}
+
+button:active{
+    background-color: white;
+    color: black;
+}
+
+.click_b{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeb{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+}
+
+.homeb:active{
+    background-color: black;
+    color: white;
+}
+
+.hcb{
+    background-color: white;
+    border-style: solid;
+    transition: all 0,1s;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.hcb:active{
+    background-color: black;
+}
