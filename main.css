@@ -140,3 +140,9 @@ button:active{
     margin-top: 20%;
 }
 
+.privacy{
+    background-color: light blue;
+    color: white;
+    border-radius: 10px;
+}
+
