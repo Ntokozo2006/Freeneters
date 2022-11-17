@@ -86,3 +86,74 @@ button:active{
 .hcb:active{
     background-color: black;
 }
+
+
+.menu-bar2 ul li:active .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar2 ul li:active .sub-menu ul{
+    display: block;
+
+    align-items: center;
+}
+
+.menu-bar2 ul li:active .sub-menu ul li{
+    width: 10%;
+    padding: 10px;
+}
+
+.menu-bar2{
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+}
+
+.menu-bar2 ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar2 ul li {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    transition: all 0.5s;
+}
+
+.menu-bar2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-bar2 ul li a:hover {
+    color: red;
+    border-radius: 5px;
+}
+
+.active{
+    border-top: black;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+    width: 100%;
+    font-size: larger;
+}
+
+.sub-menu{
+    display: none;
+    color: white;
+    font-size: medium;
+}
