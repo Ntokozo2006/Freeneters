@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .div{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            border-radius: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        
+.menu-bar2 ul li:active .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar2 ul li:active .sub-menu ul{
+    display: block;
+
+    align-items: center;
+}
+
+.menu-bar2 ul li:active .sub-menu ul li{
+    width: 10%;
+    padding: 10px;
+}
+
+.menu-bar2{
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+}
+
+.menu-bar2 ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar2 ul li {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    transition: all 0.5s;
+}
+
+.menu-bar2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-bar2 ul li a:hover {
+    color: red;
+    border-radius: 5px;
+}
+
+.active{
+    border-top: black;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+    width: 100%;
+    font-size: larger;
+}
+
+.sub-menu{
+    display: none;
+    color: white;
+    font-size: medium;}
+
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html"><h1>Freeneters</h1></a>
+
+<div class="div">
+
+    <h2>
+        <p>
+        Freeneters is a website built for helping people who are in need of data, without any costs
+        </p>
+
+        <h2>
+            <p>
+                We as freeneters saw an opportunity to provide function to people who neeed to use data for: 
+            </p>
+            <li>School</li>
+            <li>Social media</li>
+            <li>Running business</li>
+            <li>ETC</li>
+        </h2>
+    </h2>
+
+    <h1>What's great about freeneters ?</h1>
+
+    <h2><li>
+        Freeneters is free of charges
+    </li>
+    <li>
+        Freeneters is reliable
+    </li>
+    <li>
+        It's easy to use
+    </li></h2>
+</div>
+
+<div class="menu-bar2">
+        
+    <ul class="active">
+
+        <li><a href="#"><a>
+            Contact us
+        </a>
+            <div class="sub-menu">
+                <ul>
+                    <li>
+                        0712784161
+                    </li>
+
+                    <li>
+                        Ntokozoowen02@gmail.com
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li><a href="privacy-and-poilicy.html">
+            Privacy policy
+        </a></li>
+
+        <li>
+            <a href="terms.html">Terms and conditions</a>
+        </li>
+
+    </ul>  
+        
+</div>
+</body>
+
+</html>
