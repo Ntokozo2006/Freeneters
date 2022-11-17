@@ -11,7 +11,7 @@
             align-items: center;
         }
 
-        div{
+        .div{
             background-color: lightblue;
             border-radius: 10px;
             margin-left: 2%;
@@ -25,29 +25,88 @@
             padding-bottom: 10%;
         }
 
+        
+.menu-bar2 ul li:active .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar2 ul li:active .sub-menu ul{
+    display: block;
+
+    align-items: center;
+}
+
+.menu-bar2 ul li:active .sub-menu ul li{
+    width: 10%;
+    padding: 10px;
+}
+
+.menu-bar2{
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+}
+
+.menu-bar2 ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar2 ul li {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    transition: all 0.5s;
+}
+
+.menu-bar2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-bar2 ul li a:hover {
+    color: red;
+    border-radius: 5px;
+}
+
+.active{
+    border-top: black;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+    width: 100%;
+    font-size: larger;
+}
+
+.sub-menu{
+    display: none;
+    color: white;
+    font-size: medium;}
 
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy and Policy</title>
-    
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S18ZBPK34D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-S18ZBPK34D');
-    </script>
 </head>
 
 
 <body>
 
-    <a href="index.html"><h1>Freeneters</h1></a>
-<div>
+    <a href="index.html"></a><h1>Freeneters</h1>
+<div class="div">
     <h1 id="privacy">Privacy Policy of Freeneters</h1>
     
     <p>At freeneters, accessible from freeneters.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by freeneters and how we use it.</p>
@@ -143,6 +202,38 @@
     <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
     
     <p id="last">freeneters does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+</div>
+
+<div class="menu-bar2">
+        
+    <ul class="active">
+
+        <li><a href="#"><a>
+            Contact us
+        </a>
+            <div class="sub-menu">
+                <ul>
+                    <li>
+                        0712784161
+                    </li>
+
+                    <li>
+                        Ntokozoowen02@gmail.com
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li><a href="us.html">
+            About us
+        </a></li>
+
+        <li>
+            <a href="terms.html">Terms and conditions</a>
+        </li>
+
+    </ul>  
+        
 </div>
 </body>
 </html>
