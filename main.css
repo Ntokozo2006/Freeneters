@@ -142,37 +142,150 @@ button:active{
     margin-top: 20%;
 }
 
-#privacy{
-    background-color: white;
-    text-align: center;
-    margin-top: 20%;
-    margin-bottom: 1%;
-    border-style: solid;
-    border-top-color: black;
-    border-left-color: white ;
-    border-right-color: white ;
-    border-bottom-color: black ;
-}
-
-
-.privacy{
-    color: black;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    padding-top: 5%;
-    padding-bottom: 5%; 
-    margin-left: 5%;
-}
-
 span{
     color: red;
 }
 
-#contact-us{
+.steps{
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    vertical-align: top;
+    text-align: center;
+    font-size: x-large;
+}
+
+.menu-bar{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    border-top-color: white;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    transition: all 0.5s;
+}
+
+.active1{
+    border-top-color: white;
+    border-style: solid;
+    width: 100%;
+    font-size: larger;
+    
+}
+
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-bar ul li:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.menu-bar2{
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+}
+
+.menu-bar2 ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar2 ul li {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    transition: all 0.5s;
+}
+
+.menu-bar2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-bar2 ul li a:hover {
+    color: red;
+    border-radius: 5px;
+}
+
+.active{
+    border-top: black;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+    width: 100%;
+    font-size: larger;
+}
+
+.sub-menu{
+    display: none;
+    color: white;
+    font-size: medium;
+}
+
+.menu-bar ul li:active .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar ul li:active .sub-menu ul{
+    display: block;
+    align-items: center;
+}
+
+.menu-bar ul li:active .sub-menu ul li{
+    width: 10%;
+    padding: 10px;
+}
+
+.menu-bar2 ul li:active .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar2 ul li:active .sub-menu ul{
+    display: block;
+
+    align-items: center;
+}
+
+.menu-bar2 ul li:active .sub-menu ul li{
+    width: 10%;
+    padding: 10px;
 }
 
 
