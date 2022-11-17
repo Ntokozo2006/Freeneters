@@ -144,9 +144,13 @@ button:active{
 
 #privacy{
     text-align: center;
-    background-color: black;
     margin-top: 20%;
     margin-bottom: 1%;
+    border-style: solid;
+    border-top-color: black;
+    border-left-color: white ;
+    border-right-color: white ;
+    border-bottom-color: white ;
 }
 
 
