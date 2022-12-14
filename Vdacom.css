@@ -155,3 +155,13 @@ a{
     color: white;
     font-size: medium;
 }
+
+.ad1{
+    padding: auto;
+    margin-top: 10px;
+}
+
+.ad2{
+    margin-top: 10px;
+    text-align: center;
+}

@@ -23,7 +23,7 @@ img{
     margin-top: 2%;
     
 }
-
+z
 
 table, th, td{
     vertical-align: top;
@@ -288,4 +288,13 @@ a{
     padding: 10px;
 }
 
+.ad1{
+    padding: auto;
+    margin-top: 10px;
+    height: 10px;
+}
 
+.ad2{
+    margin-top: 10px;
+    text-align: center;
+}
